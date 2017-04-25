@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="xls.xls"?>
+<profilHrace>
+    <jmenoHrace>Jo - Jo</jmenoHrace>
+    <hodnoceniHrace>3524</hodnoceniHrace>
+    <hodnoceniSkupiny>4132</hodnoceniSkupiny>
+    <pocetVyher>321</pocetVyher>
+    <oceneni>252</oceneni>
+    <pocetZapasu>1024</pocetZapasu>
+    <prvniZapas>8.1.2010</prvniZapas>
+    <pozice>
+        <support enable="true"/>
+        <carry enable="false"/>
+        <tank enable="false"/>
+        <mid enable="true"/>
+    </pozice>
+    <ovladani>
+        <predmety>
+            <predmet id ="1">SPACE</predmet>
+            <predmet id ="2">2</predmet>
+            <predmet id ="3">3</predmet>
+            <predmet id ="4">4</predmet>
+            <predmet id ="5">5</predmet>
+            <predmet id ="6">6</predmet>
+        </predmety>
+        <schopnosti>
+            <schopnost id="1">Q</schopnost>
+            <schopnost id="2">W</schopnost>
+            <schopnost id="3">E</schopnost>
+            <schopnost id="4">R</schopnost>
+            <schopnost id="5">D</schopnost>
+            <schopnost id="6">F</schopnost>
+        </schopnosti>
+        <chat>
+            <zpravaTymu>ENTER</zpravaTymu>
+            <zpravaVsem>SHIFT-ENTER</zpravaVsem>
+            <promluvitkTymu>MOUSE4</promluvitkTymu>
+            <chatavociKolecko>Y</chatavociKolecko>
+            <chatavociKoleckoZpravy>
+                <pozicovani>
+                    <zautocte enable="true"/>
+                    <stahnout enable="true"/>
+                    <past enable="false"/>
+                </pozicovani>
+                <nepritel>
+                    <chybi enable="true"/>
+                    <nepritelSeVratil enable="true"/>
+                    <nepritelMaRunu enable="false"/>
+                </nepritel>
+                <predmety>
+                    <wardy enable="true"/>
+                    <stavimMeka enable="true"/>
+                    <stavimPipe enable="false"/>
+                </predmety>
+                <ostatni>
+                    <dobre enable="true"/>
+                    <rozumim enable="true"/>
+                    <pockejte enable="false"/>
+                </ostatni>
+            </chatavociKoleckoZpravy>
+        </chat>
+        <akcevObchodu>
+            <vybratKuryra>G</vybratKuryra>
+            <dorucitPredmety>H</dorucitPredmety>
+            <koupitPredmety>B</koupitPredmety>
+            <vzitPredmety>N</vzitPredmety>
+        </akcevObchodu>
+    </ovladani>
+    <nastaveniZvuku>
+        <celokovaHlasitosHry>19</celokovaHlasitosHry>
+        <zvukyHry>26</zvukyHry>
+        <hudba>23</hudba>
+        <hlas>66</hlas>
+        <hlaskyJednotky>
+            <zadne enable="false"/>
+            <pouzeKomentareUdalosti enable="false"/>
+            <vsechny enable="true"/>
+        </hlaskyJednotky>
+    </nastaveniZvuku>
+</profilHrace>

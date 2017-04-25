@@ -1,0 +1,411 @@
+<!DOCTYPE HTML>
+<html lang="cs">
+	<head>
+		<meta charset="UTF-8">
+			<title>Semestrální projekt</title>
+		</head>
+
+		<body>
+			<header>
+				<h1>Dokumentace</h1>
+				<h2>Navigace</h2>
+				<ul>
+					<li>
+						<a href="#predmluva">Předmluva</a>
+					</li>
+					<li>
+						<a href="#dota">co je to dota?</a>
+					</li>
+					<li>
+						<a href="#profil">Profil</a>
+					</li>
+					<li>
+						<a href="#ovladani">Ovladni</a>
+					<li>
+						<a href="#odkaz">Odkaz</a>
+					</li>
+				</ul>
+			</header>
+			<main>
+
+				<section id="predmluva">
+					<h2>Předmluva</h2>
+					<p>Dokumentace k semestrálnímu projektu pro značkovací jazyky.</p>
+				</section>
+
+				<section id="dota">
+					<h2>Co to je dota?</h2>
+					<p>
+					Dota je online hra, kde pěti člený tým bojuje, proti druhýmu pěti členému týmu. Do doby, když jeden z týmů zníčí druhému týmu hlavní budovu a nebo jeden z týmů uzná porážku a vzdá se.<br>
+					Káždý hráč si vybírá svého hrdinu, za kterého bude hrát a bojovat. Sám si může nastavit ovládaní hry jak se.
+					</p>
+					<h3>Vypis xsd type</h3>
+					<ul>
+						<li>string - v xml tagu s tímto typem tagu bude očekáván textový řetězec</li>
+						<li>date - v xml tagu s tímto typem bude očekáváno datum</li>
+						<li>integer - v xml tagu s tímto typem bude očekáváno celé číslo </li>
+						<li>byte - v xml tagu s tímto typem bude očekáváno jeden znak </li>
+					</ul>
+
+				</section>
+				
+				<section id="profil">
+					<h2>Profil hrace</h2>
+					<table border="1">
+						<tr>
+							<th>NAME</th>
+							<th>TYPE</th>
+							<th>CO TO ZNAMENA</th>
+						</tr>
+						<tr>
+							<td>Jmeno hrace</td>
+							<td>xs:string</td>
+							<td>Herni jmeno hrace</th>
+						</tr>
+						<tr>
+							<td>Hodnocení hrace</td>
+							<td>xs:integer</td>
+							<td>Dosazene mmr hrace</td>
+						</tr>
+						<tr>
+							<td>Hodnocení skupiny</td>
+							<td>xs:integer</td>
+							<td>Dosazene mmr hrace ve skupine</td>
+						</tr>
+						<tr>
+							<td>Pocet vyher</td>
+							<td>xs:integer</td>
+							<td>Celkovy pocet vyher</td>
+						</tr>
+						<tr>
+							<td>Oceneni</td>
+							<td>xs:integer</td>
+							<td>Pocet oceneni od spoluhracu</td>
+						</tr>
+						<tr>
+							<td>Pocet zapacu</td>
+							<td>xs:integer</td>
+							<td>Celkovy pocet odehranich zapasu</td>
+						</tr>
+						<tr>
+							<td>Prvni zapas</td>
+							<td>xs:date</td>
+							<td>Prvni odehrany zapas v Dote</td>
+						</tr>
+				</table>
+				<ul>
+					<li>Pozice</li>
+						<ul>
+							<li>support</li>
+							<li>carry</li>
+							<li>tank</li>
+							<li>mid</li>
+						</ul>
+				</ul>
+				</section>
+				<section id="ovladani">
+					<h2>Ovladni</h2>
+					
+					<h3>Chat</h3>
+					
+					<table border="1">
+						<tr>
+							<th>AKCE</th>
+							<th>TYPE</th>
+							<th>VYVOLANI AKCE</th>
+						</tr>
+						<tr>
+							<td>Zprava tymu</td>
+							<td>xs:string</td>
+							<td>ENTER</td>
+						</tr>
+						<tr>
+							<td>Zprava vsem</td>
+							<td>xs:string</td>
+							<td>SHIFT-ENTER</td>
+						</tr>
+						<tr>
+							<td>Promluvit k týmu</td>
+							<td>xs:string</td>
+							<td>MOUSE4</td>
+						</tr>
+						<tr>
+							<td>Vyvolat chatovací kolečko</td>
+							<td>xs:byte</td>
+							<td>Y</td>
+						</tr>
+					</table>
+					<p>Chatovací kolečko může obsahovat 8 různích zpráv.</p>
+					<ul>
+						<li>Pozicovani</li>
+							<ul>
+								<li>Zautocte!</li>
+								<li>Stahnete se!</li>
+								<li>Je to past</li>
+								<li>Uz jsem na ceste</li>
+							</ul>
+						<li>Nepritel</li>
+							<ul>
+								<li>Chybi!</li>
+								<li>Nepritel se vratil</li>
+								<li>Nepritel ma runu</li>
+							</ul>
+						<li>Predmety</li>
+							<ul>
+								<li>Potrebujeme wardy</li>
+								<li>Stavim Mekansm</li>
+								<li>Stavim Pipe</li>
+							</ul>
+						<li>Ostatni</li>
+							<ul>
+								<li>Dobře</li>
+								<li>Rozumim</li>
+								<li>Pockejte</li>
+								<li>Pauzu prosím</li>
+							</ul>
+					</ul>
+					
+					<h3>Akce jednotky</h3>
+					
+					<table border="1">
+						<tr>
+							<th>AKCE</th>
+							<th>TYPE</th>
+							<th>VYVOLANI AKCE</th>
+						</tr>
+						<tr>
+							<td>Vybrat hrdinu</td>
+							<td>xs:byte</td>
+							<td>F1</td>
+						</tr>
+						<tr>
+							<td>Vybrat všechny ovladane jednotky</td>
+							<td>xs:byte</td>
+							<td>F2</td>
+						</tr>
+						<tr>
+							<td>Vynutit utok</td>
+							<td>xs:byte</td>
+							<td>A</td>						
+						</tr>
+						<tr>
+							<td>Drzet pozici</td>
+							<td>xs:byte</td>
+							<td>S</td>
+						</tr>
+						<tr>
+							<td>Naucit se schopnost</td>
+							<td>xs:byte</td>
+							<td>C</td>
+						</tr>
+						<tr>
+							<td>Vylepšit talent</td>
+							<td>xs:byte</td>
+							<td>U</td>
+						</tr>
+						<tr>
+							<td>Pouziti tauntu</td>
+							<td>xs:byte</td>
+							<td>V</td>
+						</tr>
+						<tr>
+							<td>Pouzit fukcni predmet</td>
+							<td>xs:byte</td>
+							<td>X</td>
+						</tr>
+						<tr>
+							<td>Aktivovat Glyph</td>
+							<td>xs:byte</td>
+							<td>L</td>
+						</tr>
+						<tr>
+							<td>Presunout</td>
+							<td>xs:byte</td>
+							<td>M</td>
+						</tr>
+					</table>
+					
+					<h3>Akce v obchodu</h3>
+					<p>Akce v obchodu se daji ovladat klavesi G, H, B, N. Avšak se nesmí opakovat.
+					<table border="1">
+						<tr>
+							<th>AKCE</th>
+							<th>TYPE</th>
+							<th>VYVOLANI AKCE</th>
+						</tr>
+						<tr>
+							<td>Vybrat kurýra</td>
+							<td>xs:byte</td>
+							<td>G, H, B, N</td>
+						</tr>
+						<tr>
+							<td>Dorucit predmety kuryren</td>
+							<td>xs:byte</td>
+							<td>G, H, B, N</td>
+						</tr>
+						<tr>
+							<td>Koupit predmety z rychleho nakupu</td>
+							<td>xs:byte</td>
+							<td>G, H, B, N</td>
+						</tr>
+						<tr>
+							<td>Vzit predemety ze skryse</td>
+							<td>xs:byte</td>
+							<td>G, H, B, N</td>
+						</tr>
+					</table>
+
+					<h3>Rozhrani</h3>
+					
+					<table border="1">
+						<tr>
+							<th>AKCE</th>
+							<th>TYPE</th>
+							<th>VYVOLANI AKCE</th>
+						</tr>
+						<tr>
+							<td>Uchycení kamery</td>
+							<td>xs:string</td>
+							<td>MOUSE3</td>
+						</tr>
+						<tr>
+							<td>Vyvolat tabulku skore</td>
+							<td>xs:byte</td>
+							<td>\</td>
+						</tr>
+						<tr>
+							<td>Pozastavit hru</td>
+							<td>xs:byte</td>
+							<td>P</td>
+						</tr>			
+					</table>
+					
+					<h3>Schopnosti</h3>
+					
+					<table border="1">
+						<tr>
+							<th>AKCE</th>
+							<th>TYPE</th>
+							<th>VYVOLANI AKCE</th>
+						</tr>
+						<tr>
+							<td>Schopnost1</td>
+							<td>xs:byte</td>
+							<td>Q</td>
+						</tr>
+						<tr>
+							<td>Schopnost2</td>
+							<td>xs:byte</td>
+							<td>W</td>
+						</tr>
+						<tr>
+							<td>Schopnost3</td>
+							<td>xs:byte</td>
+							<td>E</td>
+						</tr>
+						<tr>
+							<td>Schopnost4</td>
+							<td>xs:byte</td>
+							<td>R</td>
+						</tr>	
+						<tr>
+							<td>Schopnost5</td>
+							<td>xs:byte</td>
+							<td>D</td>
+						</tr>	
+						<tr>
+							<td>Schopnost6</td>
+							<td>xs:byte</td>
+							<td>F</td>
+						</tr>						
+					</table>
+					<ul>
+						<li>
+					
+					<h3>Predmety</h3>
+					<p>Predmety se daji vyvolat hornimi cisly na klavesni 1 az 9 a nebo SPACE. Avšak se nesmí nic opakovat</p>
+					<table border="1">
+						<tr>
+							<th>AKCE</th>
+							<th>TYPE</th>
+							<th>VYVOLANI AKCE</th>
+						</tr>
+						<tr>
+							<td>Predmet1</td>
+							<td>xs:byte</td>
+							<td>1 az 9 nebo SPACE</td>
+						</tr>
+						<tr>
+							<td>Predmet2</td>
+							<td>xs:byte</td>
+							<td>1 az 9 nebo SPACE</td>
+						</tr>
+						<tr>
+							<td>Predmet3</td>
+							<td>xs:byte</td>
+							<td>1 az 9 nebo SPACE</td>
+						</tr>
+						<tr>
+							<td>Predmet4</td>
+							<td>xs:byte</td>
+							<td>1 az 9 nebo SPACE</td>
+						</tr>	
+						<tr>
+							<td>Predmet5</td>
+							<td>xs:byte</td>
+							<td>1 az 9 nebo SPACE</td>
+						</tr>	
+						<tr>
+							<td>Predmet6</td>
+							<td>xs:byte</td>
+							<td>1 az 9 nebo SPACE</td>
+						</tr>						
+					</table>
+				</section>
+				
+				<section>
+				<h2>Nastaveni zvuku</h2>
+				<h3>Celková hlasitost hry</h3>
+				<ul>
+					<li>Muze nabivat hodnot 0 az 100</li>
+				</ul>
+				<h3>Zvuky hry</h3>
+				<ul>
+					<li>Muze nabivat hodnot 0 az 100</li>
+				</ul>
+				<h3>Hudba</h3>
+				<ul>
+					<li> Muze nabivathodnot 0 az 100</li>
+				</ul>
+				<h3>Hlas</h3>
+				<ul>
+					<li>Muze nabivat hodnot 0 az 100</li>
+				</ul>
+				<h3>Hlasky jenotky</h3>
+						<ul>
+							<li>Zadne</li>
+							<li>Pouze komentare udalosti</li>
+							<li>Vsechny</li>						
+							<ul><br>
+								<li>Hlasitost jednotek muze nabivat hodnot 0 az 100</li>
+							</ul>	
+						</ul>
+				</section>
+				
+				<section id="odkaz">
+				<h2>Odkaz</h2>
+				<ul>
+					<li>
+						<a href=>GITHUB</a>
+					</li>
+				</ul>
+				</section>
+				
+			</main>
+		<h2>Autor</h2>
+			<footer>
+        &copy; Novak Marek 
+			</footer>
+		</body>
+
+	</html>

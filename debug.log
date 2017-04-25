@@ -1,0 +1,52 @@
+[0415/205053.156:ERROR:crash_report_database_win.cc(563)] CreateDirectory C:\Program Files (x86)\temp\reports: Pøístup byl odepøen. (0x5)
+[0415/205053.293:ERROR:registration_protocol_win.cc(83)] TransactNamedPipe: Pøesmìrování bylo ukonèeno. (0x6D)
+[0415/205053.307:ERROR:crashpad_win.cc(223)] Crashpad handler failed to start, crash reporting disabled
+[0415/205626.591:ERROR:crash_report_database_win.cc(563)] CreateDirectory C:\Program Files (x86)\temp\reports: Pøístup byl odepøen. (0x5)
+[0415/205626.737:ERROR:registration_protocol_win.cc(83)] TransactNamedPipe: Pøesmìrování bylo ukonèeno. (0x6D)
+[0415/205626.744:ERROR:crashpad_win.cc(223)] Crashpad handler failed to start, crash reporting disabled
+[0415/205641.538:ERROR:crash_report_database_win.cc(563)] CreateDirectory C:\Program Files (x86)\temp\reports: Pøístup byl odepøen. (0x5)
+[0415/205641.715:ERROR:registration_protocol_win.cc(83)] TransactNamedPipe: Pøesmìrování bylo ukonèeno. (0x6D)
+[0415/205641.724:ERROR:crashpad_win.cc(223)] Crashpad handler failed to start, crash reporting disabled
+[0417/205117.719:ERROR:crash_report_database_win.cc(563)] CreateDirectory C:\Program Files (x86)\temp\reports: Pøístup byl odepøen. (0x5)
+[0417/205117.835:ERROR:registration_protocol_win.cc(83)] TransactNamedPipe: Pøesmìrování bylo ukonèeno. (0x6D)
+[0417/205117.835:ERROR:crashpad_win.cc(223)] Crashpad handler failed to start, crash reporting disabled
+[0419/113707.447:ERROR:file_io_win.cc(163)] CreateFile C:\Program Files (x86)\temp\settings.dat: Pøístup byl odepøen. (0x5)
+[0419/113707.568:ERROR:registration_protocol_win.cc(83)] TransactNamedPipe: Pøesmìrování bylo ukonèeno. (0x6D)
+[0419/113707.646:ERROR:crashpad_win.cc(223)] Crashpad handler failed to start, crash reporting disabled
+[0419/114303.704:ERROR:file_io_win.cc(163)] CreateFile C:\Program Files (x86)\temp\settings.dat: Pøístup byl odepøen. (0x5)
+[0419/114303.804:ERROR:registration_protocol_win.cc(83)] TransactNamedPipe: Pøesmìrování bylo ukonèeno. (0x6D)
+[0419/114303.804:ERROR:crashpad_win.cc(223)] Crashpad handler failed to start, crash reporting disabled
+[0419/131603.225:ERROR:file_io_win.cc(163)] CreateFile C:\Program Files (x86)\temp\settings.dat: Pøístup byl odepøen. (0x5)
+[0419/140506.496:ERROR:file_io_win.cc(163)] CreateFile C:\Program Files (x86)\temp\settings.dat: Pøístup byl odepøen. (0x5)
+[0419/140506.686:ERROR:registration_protocol_win.cc(83)] TransactNamedPipe: Pøesmìrování bylo ukonèeno. (0x6D)
+[0419/140506.883:ERROR:crashpad_win.cc(223)] Crashpad handler failed to start, crash reporting disabled
+[0419/220108.713:ERROR:file_io_win.cc(163)] CreateFile C:\Program Files (x86)\temp\settings.dat: Pøístup byl odepøen. (0x5)
+[0419/220108.814:ERROR:registration_protocol_win.cc(83)] TransactNamedPipe: Pøesmìrování bylo ukonèeno. (0x6D)
+[0419/220108.829:ERROR:crashpad_win.cc(223)] Crashpad handler failed to start, crash reporting disabled
+[0420/102001.226:ERROR:file_io_win.cc(163)] CreateFile C:\Program Files (x86)\temp\settings.dat: Pøístup byl odepøen. (0x5)
+[0420/102001.444:ERROR:registration_protocol_win.cc(83)] TransactNamedPipe: Pøesmìrování bylo ukonèeno. (0x6D)
+[0420/102001.648:ERROR:crashpad_win.cc(223)] Crashpad handler failed to start, crash reporting disabled
+[0420/104015.359:ERROR:file_io_win.cc(163)] CreateFile C:\Program Files (x86)\temp\settings.dat: Pøístup byl odepøen. (0x5)
+[0420/104015.624:ERROR:registration_protocol_win.cc(83)] TransactNamedPipe: Pøesmìrování bylo ukonèeno. (0x6D)
+[0420/104015.765:ERROR:crashpad_win.cc(223)] Crashpad handler failed to start, crash reporting disabled
+[0420/110240.926:ERROR:file_io_win.cc(163)] CreateFile C:\Program Files (x86)\temp\settings.dat: Pøístup byl odepøen. (0x5)
+[0420/110241.114:ERROR:registration_protocol_win.cc(83)] TransactNamedPipe: Pøesmìrování bylo ukonèeno. (0x6D)
+[0420/110241.192:ERROR:crashpad_win.cc(223)] Crashpad handler failed to start, crash reporting disabled
+[0422/124350.064:ERROR:file_io_win.cc(163)] CreateFile C:\Program Files (x86)\temp\settings.dat: Pøístup byl odepøen. (0x5)
+[0422/124350.174:ERROR:file_io_win.cc(163)] CreateFile C:\Program Files (x86)\temp\settings.dat: Pøístup byl odepøen. (0x5)
+[0422/124350.206:ERROR:registration_protocol_win.cc(83)] TransactNamedPipe: Pøesmìrování bylo ukonèeno. (0x6D)
+[0422/124350.353:ERROR:crashpad_win.cc(223)] Crashpad handler failed to start, crash reporting disabled
+[0424/092610.592:ERROR:file_io_win.cc(163)] CreateFile C:\Program Files (x86)\temp\settings.dat: Pøístup byl odepøen. (0x5)
+[0424/092610.692:ERROR:file_io_win.cc(163)] CreateFile C:\Program Files (x86)\temp\settings.dat: Pøístup byl odepøen. (0x5)
+[0424/092611.218:ERROR:file_io_win.cc(163)] CreateFile C:\Program Files (x86)\temp\settings.dat: Pøístup byl odepøen. (0x5)
+[0424/092611.379:ERROR:file_io_win.cc(163)] CreateFile C:\Program Files (x86)\temp\settings.dat: Pøístup byl odepøen. (0x5)
+[0424/101205.803:ERROR:file_io_win.cc(163)] CreateFile C:\Program Files (x86)\temp\settings.dat: Pøístup byl odepøen. (0x5)
+[0424/101205.989:ERROR:registration_protocol_win.cc(83)] TransactNamedPipe: Pøesmìrování bylo ukonèeno. (0x6D)
+[0424/101206.227:ERROR:crashpad_win.cc(223)] Crashpad handler failed to start, crash reporting disabled
+[0424/202629.128:ERROR:file_io_win.cc(163)] CreateFile C:\Program Files (x86)\temp\settings.dat: Pøístup byl odepøen. (0x5)
+[0424/202629.260:ERROR:registration_protocol_win.cc(83)] TransactNamedPipe: Pøesmìrování bylo ukonèeno. (0x6D)
+[0424/202629.329:ERROR:crashpad_win.cc(223)] Crashpad handler failed to start, crash reporting disabled
+[0424/204542.182:ERROR:file_io_win.cc(163)] CreateFile C:\Program Files (x86)\temp\settings.dat: Pøístup byl odepøen. (0x5)
+[0424/204542.281:ERROR:registration_protocol_win.cc(83)] TransactNamedPipe: Pøesmìrování bylo ukonèeno. (0x6D)
+[0424/204542.282:ERROR:crashpad_win.cc(223)] Crashpad handler failed to start, crash reporting disabled
+[0424/220954.167:ERROR:file_io_win.cc(163)] CreateFile C:\Program Files (x86)\temp\settings.dat: Pøístup byl odepøen. (0x5)

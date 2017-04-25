@@ -1,0 +1,135 @@
+
+        {
+        "profilHrace": {
+        "jmenoHrace": "Jo - Jo",
+        "hodnoceniHrace": "3524",
+        "hodnoceniSkupiny": "4132",
+        "pocetVyher": "321",
+        "oceneni": "252",
+        "pocetZapasu": "1024",
+        "prvniZapas": "8.1.2010",
+        "pozice": {
+        "support": { "-enable": "true" },
+        "carry": { "-enable": "false" },
+        "tank": { "-enable": "false" },
+        "mid": { "-enable": "true" }
+        },
+        "ovladani": {
+        "predmety": {
+        "predmet":         [
+        
+            {
+            "-id": "1",
+            "#text": "SPACE"
+            }
+            ,
+            {
+            "-id": "2",
+            "#text": "2"
+            }
+            ,
+            {
+            "-id": "3",
+            "#text": "3"
+            }
+            ,
+            {
+            "-id": "4",
+            "#text": "4"
+            }
+            ,
+            {
+            "-id": "5",
+            "#text": "5"
+            }
+            ,
+            {
+            "-id": "6",
+            "#text": "6"
+            }
+            
+      
+        ]},
+        "schopnosti": {
+        "schopnost":[
+        
+            {
+            "-id": "",
+            "#text": "Q"
+            }
+            ,
+            {
+            "-id": "",
+            "#text": "W"
+            }
+            ,
+            {
+            "-id": "",
+            "#text": "E"
+            }
+            ,
+            {
+            "-id": "",
+            "#text": "R"
+            }
+            ,
+            {
+            "-id": "",
+            "#text": "D"
+            }
+            ,
+            {
+            "-id": "",
+            "#text": "F"
+            }
+            
+        ]},
+        "chat": {
+        "zpravaTymu": "ENTER",
+        "zpravaVsem": "SHIFT-ENTER",
+        "promluvitkTymu": "MOUSE4",
+        "chatavociKolecko": "Y",
+        "chatavociKoleckoZpravy": {
+        "pozicovani": {
+        "zautocte": { "-enable": "true" },
+        "stahnout": { "-enable": "true" },
+        "past": { "-enable": "false" }
+        },
+        "nepritel": {
+        "chybi": { "-enable": "" },
+        "nepritelSeVratil": { "-enable": "true" },
+        "nepritelMaRunu": { "-enable": "false" }
+        },
+        "predmety": {
+        "wardy": { "-enable": "true" },
+        "stavimMeka": { "-enable": "true" },
+        "stavimPipe": { "-enable": "false" }
+        },
+        "ostatni": {
+        "dobre": { "-enable": "true" },
+        "rozumim": { "-enable": "true" },
+        "pockejte": { "-enable": "false" }
+        }
+        }
+        },
+        "akcevObchodu": {
+        "vybratKuryra": "G",
+        "dorucitPredmety": "H",
+        "koupitPredmety": "B",
+        "vzitPredmety": "N"
+        }
+        },
+        "nastaveniZvuku": {
+        "celokovaHlasitosHry": "19",
+        "zvukyHry": "26",
+        "hudba": "23",
+        "hlas": "66",
+        "hlaskyJednotky": {
+        "zadne": { "-enable": "" },
+        "pouzeKomentareUdalosti": { "-enable": "" },
+        "vsechny": { "-enable": "" }
+        }
+        }
+        }
+        }
+    
